@@ -52,7 +52,7 @@
                     
                     <?php if(!empty($slide['title']) or !empty($slide['description'])) : ?>
                         <div class="cycloneslider-caption">
-                            <div class="cycloneslider-caption-title"><?php echo wp_kses_post( $slide['title'] );?></div>
+                            <div class="cycloneslider-caption-title"><h1><?php echo wp_kses_post( $slide['title'] );?></h1></div>
                             <div class="cycloneslider-caption-description"><?php echo wp_kses_post( $slide['description'] );?></div>
                         </div>
                     <?php endif; ?>

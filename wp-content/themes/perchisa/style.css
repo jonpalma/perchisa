@@ -1,0 +1,191 @@
+/*
+
+Diseño:              Jon Palma Agencia Mixen.mx;
+Versión:             1.0;
+Versión Bootstrap:   3.0.3;
+Empresa:             Perchisa;
+Ciudad:              Chihuahua, Mexico;
+Fecha:               22-dic-2013 al 20-ene-2014
+
+Todos los derechos reservados.
+
+ */
+
+ .history h4 {
+    text-align: center;
+    color: #f1f1f1;
+}
+
+.history p {
+    color: #fff;
+    font-size: 12px;
+}
+
+.icon-b {
+    margin: 0 auto;
+    width: 100px;
+}
+
+.txt-white {
+  color: #fff;
+}
+
+.bg-black {
+    background: #121212;
+}
+
+.bg-black h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.bg-green {
+    background: #00de44;
+}
+
+
+@media screen and (min-width: 768px) {
+  .bg-green {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .container .bg-green {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+
+}
+
+.bg-green h4 {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+
+.bg-blue {
+    background: #0092de;
+    text-align: center;
+    color: #fff;
+    padding:100px 0 100px 0;
+}
+
+.bg-blue a {
+    color: #fff;
+}
+
+.bg-blue a:hover {
+    text-decoration: underline;
+}
+
+.bg-gray {
+    background: #444;
+}
+
+.bg-green-2 {
+    background: #de8300;
+    text-align: center;
+    color: #fff;
+    padding:100px 0 100px 0;
+}
+
+.bg-green-2 a {
+    color: #fff;
+}
+
+.experience p {
+    color: #fff;
+    font-size: 14px;
+    font-style: italic;
+    color: #f1f1f1;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 40px;
+    margin-bottom: ;
+}
+
+.banner {
+    margin-top: -20px;
+    padding: 0;
+}
+
+.servicios {
+    display: 200px;
+    background: #00de44;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.servicios h4 {
+    color: #fff;
+    padding: 20px;
+}
+
+.servicio h4 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.servicio a:hover {
+    text-decoration: none;
+    background: #fff
+}
+
+
+/** FOOTER **/
+
+.footer-black {
+    background: #2a2a2a;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    line-height: 20px;
+}
+
+.container .footer-black {
+    padding-right: 6px;
+    padding-left: 6px;
+
+}
+
+.footer-black h3 {
+    color: #fff;
+    font-size: 14px;
+    border-bottom: 2px solid #00de44;
+    width: 140px;
+}
+
+.footer-black p  {
+    color: #dadada;
+    margin-left: -35px;
+}
+
+.footer-black-2 p  {
+    padding-top: 8px;
+    color: #dadada;
+    font-size: 12px;
+}
+
+.footer-black-2 a  {
+    color: #dadada;
+    font-size: 12px;
+}
+
+
+
+.footer-black ul {
+    text-decoration: none;
+    list-style: none;
+    font-size: 12px;
+    margin: 0;
+}
+
+.footer-black ul li a {
+    text-decoration: none;
+    color: #dadada;
+    margin-left: -35px;
+}
+
+.footer-black li a:hover {
+    color: #ccc;
+    text-decoration: underline;
+}
