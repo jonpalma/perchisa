@@ -17,10 +17,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap core CSS -->
+    <link href="<?php bloginfo('template_url')?>/css/bootstrap-theme.css" rel="stylesheet" >
     <link href="<?php bloginfo('template_url')?>/css/bootstrap.css" rel="stylesheet">
     <link href="<?php bloginfo('template_url')?>/css/carousel.css" rel="stylesheet">
     <link href="<?php bloginfo('stylesheet_url')?>" rel="stylesheet">
-    <link href="<?php bloginfo('template_url')?>/css/bootstrap-theme.css" rel="stylesheet" >
 
     <link rel="shortcut icon" href="<?php bloginfo('template_url')?>/img/perchisa.ico" type="image/x-icon">
 

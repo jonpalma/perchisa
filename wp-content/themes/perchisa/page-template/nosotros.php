@@ -21,11 +21,14 @@ Template Name: Nosotros
               <hr>
               <div class="col-lg-4 col-md-4 col-ms-4"><br><img src="<?php bloginfo('template_url')?>/img/empresa.jpg" class="img-circle"  alt="Empresa PERCHISA Perforaciones en Chihuahua SA de CV"></div>
               <div class="col-lg-8 col-md-8 col-ms-8">
-                   <?php if (have_posts()) : while (have_posts()) : the_post();
+                   <?php 
+                         if (have_posts()) : while (have_posts()) : the_post();
                             the_content();
                          endwhile; else: ?>
                         <h1>No se encontraron articulos</h1>
-                   <?php endif; ?>
+                   <?php 
+                        endif;
+                  ?>
               </div>
             </div>
           </div>
@@ -307,6 +310,7 @@ Template Name: Nosotros
             </div>
           </div>
         </div>
+    </div>
 
     <!-- EXPERIENCES  -->
     <?php include(TEMPLATEPATH. '/slideshow.php'); ?>

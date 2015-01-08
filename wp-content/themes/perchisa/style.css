@@ -131,6 +131,13 @@ Todos los derechos reservados.
     background: #fff
 }
 
+.panel-heading {
+    background-image: none !important;
+}
+
+.panel-title {
+    text-transform: uppercase;
+}
 
 /** FOOTER **/
 

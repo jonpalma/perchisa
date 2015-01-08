@@ -6,7 +6,7 @@ register_nav_menus( array(
 
 //Agregar thumbs para los post
 add_theme_support('post-thumbnails');
-add_image_size('list_articles_thumbs', 263,202, true);
+add_image_size('list_articles_thumbs', 313, 311, true);
 
 //Sidebar
 register_sidebar( array(
