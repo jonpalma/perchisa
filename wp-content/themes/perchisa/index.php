@@ -1,7 +1,7 @@
 <?php get_header();?>
 
 <!-- SLIDE -->
-    <?php echo do_shortcode('[cycloneslider id="banner-principal"]'); ?>
+    <?php echo do_shortcode("[huge_it_slider id='2']"); ?>
 <!-- END / SLIDE -->
 
     <div class="container">

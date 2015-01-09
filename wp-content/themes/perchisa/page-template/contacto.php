@@ -37,8 +37,4 @@ Template Name: Contacto
       </div>
       <hr>
     </div>
-
-<!-- EXPERIENCES  -->
-        <?php include(TEMPLATEPATH. '/slideshow.php'); ?>
-<!-- END / EXPERIENCES -->
 <?php get_footer(); ?>

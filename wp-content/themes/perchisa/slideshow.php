@@ -8,7 +8,7 @@
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <?php 
-                    $loop = new WP_Query(array( 'post_type' => 'testimonial','p' => $id, 'order' => 'ASC', 'showposts' => '11'));
+                    $loop = new WP_Query(array( 'post_type' => 'testimonial', 'order' => 'ASC', 'showposts' => '11'));
                     $i = 0;
                     if($loop->have_posts()):
                     while($loop->have_posts()) : $loop->the_post();
@@ -23,8 +23,7 @@
                     endwhile;
                     else: ?>
                     <p><?php _e( 'Oh God Why?' ); ?></p>
-                    <?php endif;
-                ?>
+                    <?php endif; ?>
             </ol>
               <!-- Wrapper for slides -->
             <div class="carousel-inner" >
