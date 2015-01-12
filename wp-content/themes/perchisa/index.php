@@ -1,7 +1,9 @@
 <?php get_header();?>
 
 <!-- SLIDE -->
-    <?php echo do_shortcode("[huge_it_slider id='2']"); ?>
+   <div class="carousel">
+        <?php echo do_shortcode("[huge_it_slider id='2']"); ?>
+   </div>
 <!-- END / SLIDE -->
 
     <div class="container">
