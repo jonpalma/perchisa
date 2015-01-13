@@ -44,6 +44,7 @@ Template Name: Nosotros
     </div>
     <div class="jumbotron bg-gray">
       <div class="row">
+          <?php echo do_shortcode('[Best_Wordpress_Gallery id="1" gal_title="historia"]'); ?>
       </div>
     </div>
 

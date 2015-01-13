@@ -30,9 +30,8 @@
       </footer>
       <?php wp_footer();?>
     <!-- Javascript -->
-
-   <script type="text/javascript">
-    $(document).ready(function(){
+   <script>
+    $( document ).ready( function() { 
          $("#myCarousel2").carousel();
     });
     </script>

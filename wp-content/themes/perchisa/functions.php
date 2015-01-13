@@ -144,9 +144,9 @@ function custom_post_type() {
 	        'description'         => __( 'Machine description', 'perchisa' ),
 	        'labels'              => $labels,
 	        // Features this CPT supports in Post Editor
-	        'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'revisions', 'custom-fields', ),
+	        'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'revisions', 'custom-fields' ),
 	        // You can associate this CPT with a taxonomy or custom taxonomy.
-	        'taxonomies'          => array( 'genres' ),
+	        'taxonomies'          => array( 'machines' ),
 	        /* A hierarchical CPT is like Pages and can have
 	        * Parent and child items. A non-hierarchical CPT
 	        * is like Posts.
@@ -176,5 +176,65 @@ function custom_post_type() {
 	*/
 	 
 	add_action( 'init', 'custom_post_type', 0 );
+
+//Custom Post Type Maquinaria
+function custom_post_type2() {
+	 
+	// Set UI labels for Custom Post Type
+	    $labels = array(
+	        'name'                => _x( 'Testimonials', 'Post Type General Name', 'perchisa' ),
+	        'singular_name'       => _x( 'Testimonial', 'Post Type Singular Name', 'perchisa' ),
+	        'menu_name'           => __( 'Testimonial', 'perchisa' ),
+	        'parent_item_colon'   => __( 'Parent Testimonial', 'perchisa' ),
+	        'all_items'           => __( 'All Testimonials', 'perchisa' ),
+	        'view_item'           => __( 'View Testimonial', 'perchisa' ),
+	        'add_new_item'        => __( 'Add New Testimonial', 'perchisa' ),
+	        'add_new'             => __( 'Add New', 'perchisa' ),
+	        'edit_item'           => __( 'Edit Testimonial', 'perchisa' ),
+	        'update_item'         => __( 'Update Testimonial', 'perchisa' ),
+	        'search_items'        => __( 'Search Testimonial', 'perchisa' ),
+	        'not_found'           => __( 'Not Found', 'perchisa' ),
+	        'not_found_in_trash'  => __( 'Not found in Trash', 'perchisa' ),
+	    );
+	     
+	// Set other options for Custom Post Type
+	     
+	    $args = array(
+	        'label'               => __( 'testimonial', 'perchisa' ),
+	        'description'         => __( 'Testimonial description', 'perchisa' ),
+	        'labels'              => $labels,
+	        // Features this CPT supports in Post Editor
+	        'supports'            => array( 'title', 'editor', 'excerpt', 'author' ),
+	        // You can associate this CPT with a taxonomy or custom taxonomy.
+	        'taxonomies'          => array( 'testimonials' ),
+	        /* A hierarchical CPT is like Pages and can have
+	        * Parent and child items. A non-hierarchical CPT
+	        * is like Posts.
+	        */ 
+	        'hierarchical'        => false,
+	        'public'              => true,
+	        'show_ui'             => true,
+	        'show_in_menu'        => true,
+	        'show_in_nav_menus'   => true,
+	        'show_in_admin_bar'   => true,
+	        'menu_position'       => 6,
+	        'can_export'          => true,
+	        'has_archive'         => true,
+	        'exclude_from_search' => false,
+	        'publicly_queryable'  => true,
+	        'capability_type'     => 'page',
+	    );
+	     
+	    // Registering your Custom Post Type
+	    register_post_type( 'testimonial', $args );
+	 
+	}
+	 
+	/* Hook into the 'init' action so that the function
+	* Containing our post type registration is not
+	* unnecessarily executed.
+	*/
+	 
+	add_action( 'init', 'custom_post_type2', 0 );
 
 ?>

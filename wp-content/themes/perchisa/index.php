@@ -1,8 +1,8 @@
 <?php get_header();?>
 
 <!-- SLIDE -->
-   <div class="carousel">
-        <?php echo do_shortcode("[huge_it_slider id='2']"); ?>
+   <div style="position:relative; margin-top:-20px;">
+        <?php echo do_shortcode('[cycloneslider id="banner-principal"]'); ?>
    </div>
 <!-- END / SLIDE -->
 
