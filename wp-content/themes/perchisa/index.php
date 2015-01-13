@@ -2,7 +2,7 @@
 
 <!-- SLIDE -->
    <div style="position:relative; margin-top:-20px;">
-        <?php echo do_shortcode('[cycloneslider id="banner-principal"]'); ?>
+        <?php echo do_shortcode('[cycloneslider id="banner-principal-2"]'); ?>
    </div>
 <!-- END / SLIDE -->
 

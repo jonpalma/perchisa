@@ -35,7 +35,7 @@
 .cycloneslider-box-title a.cycloneslider-box-delete{
     margin:0 5px;
     display:block;
-    float:left;
+    float:center;
     text-indent:-99999px;
     width:15px;
     height:15px;
